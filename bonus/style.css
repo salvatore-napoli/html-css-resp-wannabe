@@ -94,3 +94,33 @@ img {
   }
 }
 /* end Versione Mobile */
+
+/* Versione Tablet */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  body {
+    background-color: #e0fff9;
+  }
+  
+  .row {
+    width: 100%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central {
+    width: 50%;
+  }
+
+  #steps .row > .right {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+}
+/* end Versione Tablet */
