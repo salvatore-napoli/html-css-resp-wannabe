@@ -74,6 +74,10 @@ img {
 
 /* Versione Mobile */
 @media screen and (max-width: 420px) {
+  .container {
+    padding: 15px;
+  }
+
   .row,
   #lezioni .row > .left,
   #lezioni .row > .right,
@@ -91,6 +95,10 @@ img {
 
   img {
     height: 70px;
+  }
+
+  hr {
+    margin-top: 30px;
   }
 }
 /* end Versione Mobile */

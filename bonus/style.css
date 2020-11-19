@@ -74,6 +74,10 @@ img {
 
 /* Versione Mobile */
 @media screen and (max-width: 420px) {
+  .container {
+    padding: 15px;
+  }
+
   .row,
   #lezioni .row > .left,
   #lezioni .row > .right,
@@ -92,17 +96,32 @@ img {
   img {
     height: 70px;
   }
+
+  hr {
+    margin-top: 30px;
+  }
 }
 /* end Versione Mobile */
 
 /* Versione Tablet */
 @media screen and (min-width: 421px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   body {
     background-color: #e0fff9;
   }
 
+  .container {
+    padding: 15px;
+  }
+
   .row {
     width: 100%;
+    margin-top: 50px;
   }
 
   #steps .row > .left,
@@ -117,20 +136,20 @@ img {
 
   img {
     height: 100px;
+    margin-bottom: 10px;
   }
 
   h3 {
     font-size: 1em;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin-bottom: 10px;
   }
 
   .left {
     padding-right: 20px;
+  }
+
+  hr {
+    margin-top: 30px;
   }
 }
 /* end Versione Tablet */
