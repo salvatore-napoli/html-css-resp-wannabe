@@ -100,7 +100,7 @@ img {
   body {
     background-color: #e0fff9;
   }
-  
+
   .row {
     width: 100%;
   }
@@ -121,6 +121,16 @@ img {
 
   h3 {
     font-size: 1em;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .left {
+    padding-right: 20px;
   }
 }
 /* end Versione Tablet */
